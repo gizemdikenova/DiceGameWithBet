@@ -8,32 +8,32 @@ namespace ZarAtmaOyunu
 {
     public class BakiyeDurumu
     {
-       
-            public int Tutar { get; set; }
 
-            public BakiyeDurumu(int value)
+        public int Tutar { get; set; }
+
+        public BakiyeDurumu(int value)
+        {
+            Tutar = value;
+        }
+
+        public int AzalanBakiye(int value)
+        {
+            if (Tutar > 0)
             {
-                Tutar = value;
+                return Tutar = Tutar - value;
+            }
+            else
+            {
+                return 0;
             }
 
-            public int BakiyeAzalmasi(int value)
-            {
-                if (Tutar > 0)
-                {
-                    return Tutar = Tutar - value;
-                }
-                else
-                {
-                    return 0;
-                }
-
-
-            }
-            public int BakiyeArtmasi(int value)
-            {
-                return Tutar = Tutar + value;
-
-            }
 
         }
+        public int ArtanBakiye(int value)
+        {
+            return Tutar = Tutar + value;
+
+        }
+
     }
+}

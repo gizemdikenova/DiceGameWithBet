@@ -9,17 +9,17 @@ namespace ZarAtmaOyunu
     public class BahisDurumu
 
     {
-            public int ToplamBahis;
+            public int BahislerinToplami;
         
-        public int bahisdurumu
+        public int Bahis
         {
             get
             {
-                return ToplamBahis;
+                return BahislerinToplami;
             }
             set
             {
-                ToplamBahis = value;
+                BahislerinToplami = value;
             }
         }
     }
