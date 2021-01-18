@@ -44,14 +44,6 @@ namespace ZarAtmaOyunu
             this.labelOyuncu2Ad = new System.Windows.Forms.Label();
             this.labelOyuncu1Zar = new System.Windows.Forms.Label();
             this.labelOyuncu2Zar = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.BahisEkle1 = new System.Windows.Forms.Button();
-            this.bakiye1 = new System.Windows.Forms.Label();
-            this.bakiye2 = new System.Windows.Forms.Label();
-            this.bakiye1sonuc = new System.Windows.Forms.Label();
-            this.bakiye2sonuc = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -63,7 +55,7 @@ namespace ZarAtmaOyunu
             // 
             // buttonOyuncu1
             // 
-            this.buttonOyuncu1.Location = new System.Drawing.Point(136, 499);
+            this.buttonOyuncu1.Location = new System.Drawing.Point(168, 168);
             this.buttonOyuncu1.Name = "buttonOyuncu1";
             this.buttonOyuncu1.Size = new System.Drawing.Size(283, 60);
             this.buttonOyuncu1.TabIndex = 1;
@@ -87,7 +79,7 @@ namespace ZarAtmaOyunu
             // 
             // textBoxOyuncu1Ad
             // 
-            this.textBoxOyuncu1Ad.Location = new System.Drawing.Point(75, 102);
+            this.textBoxOyuncu1Ad.Location = new System.Drawing.Point(129, 38);
             this.textBoxOyuncu1Ad.Name = "textBoxOyuncu1Ad";
             this.textBoxOyuncu1Ad.Size = new System.Drawing.Size(272, 35);
             this.textBoxOyuncu1Ad.TabIndex = 4;
@@ -95,7 +87,7 @@ namespace ZarAtmaOyunu
             // 
             // buttonAd1
             // 
-            this.buttonAd1.Location = new System.Drawing.Point(368, 92);
+            this.buttonAd1.Location = new System.Drawing.Point(422, 28);
             this.buttonAd1.Name = "buttonAd1";
             this.buttonAd1.Size = new System.Drawing.Size(153, 55);
             this.buttonAd1.TabIndex = 5;
@@ -105,7 +97,7 @@ namespace ZarAtmaOyunu
             // 
             // textBoxOyuncu2Ad
             // 
-            this.textBoxOyuncu2Ad.Location = new System.Drawing.Point(65, 252);
+            this.textBoxOyuncu2Ad.Location = new System.Drawing.Point(640, 38);
             this.textBoxOyuncu2Ad.Name = "textBoxOyuncu2Ad";
             this.textBoxOyuncu2Ad.Size = new System.Drawing.Size(308, 35);
             this.textBoxOyuncu2Ad.TabIndex = 6;
@@ -113,9 +105,9 @@ namespace ZarAtmaOyunu
             // 
             // buttonAd2
             // 
-            this.buttonAd2.Location = new System.Drawing.Point(379, 247);
+            this.buttonAd2.Location = new System.Drawing.Point(954, 28);
             this.buttonAd2.Name = "buttonAd2";
-            this.buttonAd2.Size = new System.Drawing.Size(170, 52);
+            this.buttonAd2.Size = new System.Drawing.Size(170, 57);
             this.buttonAd2.TabIndex = 7;
             this.buttonAd2.Text = "Oyuncu 2";
             this.buttonAd2.UseVisualStyleBackColor = true;
@@ -124,7 +116,7 @@ namespace ZarAtmaOyunu
             // labelKazanan
             // 
             this.labelKazanan.AutoSize = true;
-            this.labelKazanan.Location = new System.Drawing.Point(503, 636);
+            this.labelKazanan.Location = new System.Drawing.Point(535, 305);
             this.labelKazanan.Name = "labelKazanan";
             this.labelKazanan.Size = new System.Drawing.Size(79, 29);
             this.labelKazanan.TabIndex = 8;
@@ -133,7 +125,7 @@ namespace ZarAtmaOyunu
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(492, 577);
+            this.label3.Location = new System.Drawing.Point(524, 246);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 29);
             this.label3.TabIndex = 9;
@@ -141,7 +133,7 @@ namespace ZarAtmaOyunu
             // 
             // buttonOyuncu2
             // 
-            this.buttonOyuncu2.Location = new System.Drawing.Point(700, 499);
+            this.buttonOyuncu2.Location = new System.Drawing.Point(732, 168);
             this.buttonOyuncu2.Name = "buttonOyuncu2";
             this.buttonOyuncu2.Size = new System.Drawing.Size(283, 60);
             this.buttonOyuncu2.TabIndex = 13;
@@ -152,7 +144,7 @@ namespace ZarAtmaOyunu
             // labelOyuncu1Ad
             // 
             this.labelOyuncu1Ad.AutoSize = true;
-            this.labelOyuncu1Ad.Location = new System.Drawing.Point(142, 454);
+            this.labelOyuncu1Ad.Location = new System.Drawing.Point(174, 123);
             this.labelOyuncu1Ad.Name = "labelOyuncu1Ad";
             this.labelOyuncu1Ad.Size = new System.Drawing.Size(147, 29);
             this.labelOyuncu1Ad.TabIndex = 14;
@@ -161,7 +153,7 @@ namespace ZarAtmaOyunu
             // labelOyuncu2Ad
             // 
             this.labelOyuncu2Ad.AutoSize = true;
-            this.labelOyuncu2Ad.Location = new System.Drawing.Point(704, 454);
+            this.labelOyuncu2Ad.Location = new System.Drawing.Point(736, 123);
             this.labelOyuncu2Ad.Name = "labelOyuncu2Ad";
             this.labelOyuncu2Ad.Size = new System.Drawing.Size(142, 29);
             this.labelOyuncu2Ad.TabIndex = 15;
@@ -170,7 +162,7 @@ namespace ZarAtmaOyunu
             // labelOyuncu1Zar
             // 
             this.labelOyuncu1Zar.AutoSize = true;
-            this.labelOyuncu1Zar.Location = new System.Drawing.Point(162, 577);
+            this.labelOyuncu1Zar.Location = new System.Drawing.Point(194, 246);
             this.labelOyuncu1Zar.Name = "labelOyuncu1Zar";
             this.labelOyuncu1Zar.Size = new System.Drawing.Size(79, 29);
             this.labelOyuncu1Zar.TabIndex = 16;
@@ -179,96 +171,17 @@ namespace ZarAtmaOyunu
             // labelOyuncu2Zar
             // 
             this.labelOyuncu2Zar.AutoSize = true;
-            this.labelOyuncu2Zar.Location = new System.Drawing.Point(747, 577);
+            this.labelOyuncu2Zar.Location = new System.Drawing.Point(779, 246);
             this.labelOyuncu2Zar.Name = "labelOyuncu2Zar";
             this.labelOyuncu2Zar.Size = new System.Drawing.Size(79, 29);
             this.labelOyuncu2Zar.TabIndex = 17;
             this.labelOyuncu2Zar.Text = "label5";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(745, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 35);
-            this.textBox1.TabIndex = 18;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(723, 225);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(153, 35);
-            this.textBox2.TabIndex = 19;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(700, 287);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(203, 38);
-            this.button2.TabIndex = 20;
-            this.button2.Text = "Bahis Gir";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // BahisEkle1
-            // 
-            this.BahisEkle1.Location = new System.Drawing.Point(718, 97);
-            this.BahisEkle1.Name = "BahisEkle1";
-            this.BahisEkle1.Size = new System.Drawing.Size(199, 41);
-            this.BahisEkle1.TabIndex = 21;
-            this.BahisEkle1.Text = "Bahis Gir";
-            this.BahisEkle1.UseVisualStyleBackColor = true;
-            this.BahisEkle1.Click += new System.EventHandler(this.BahisEkle1_Click);
-            // 
-            // bakiye1
-            // 
-            this.bakiye1.AutoSize = true;
-            this.bakiye1.Location = new System.Drawing.Point(700, 151);
-            this.bakiye1.Name = "bakiye1";
-            this.bakiye1.Size = new System.Drawing.Size(104, 29);
-            this.bakiye1.TabIndex = 22;
-            this.bakiye1.Text = "BAKİYE:";
-            // 
-            // bakiye2
-            // 
-            this.bakiye2.AutoSize = true;
-            this.bakiye2.Location = new System.Drawing.Point(695, 329);
-            this.bakiye2.Name = "bakiye2";
-            this.bakiye2.Size = new System.Drawing.Size(104, 29);
-            this.bakiye2.TabIndex = 23;
-            this.bakiye2.Text = "BAKİYE:";
-            // 
-            // bakiye1sonuc
-            // 
-            this.bakiye1sonuc.AutoSize = true;
-            this.bakiye1sonuc.Location = new System.Drawing.Point(838, 151);
-            this.bakiye1sonuc.Name = "bakiye1sonuc";
-            this.bakiye1sonuc.Size = new System.Drawing.Size(52, 29);
-            this.bakiye1sonuc.TabIndex = 24;
-            this.bakiye1sonuc.Text = "100";
-            // 
-            // bakiye2sonuc
-            // 
-            this.bakiye2sonuc.AutoSize = true;
-            this.bakiye2sonuc.Location = new System.Drawing.Point(831, 328);
-            this.bakiye2sonuc.Name = "bakiye2sonuc";
-            this.bakiye2sonuc.Size = new System.Drawing.Size(52, 29);
-            this.bakiye2sonuc.TabIndex = 25;
-            this.bakiye2sonuc.Text = "100";
-            this.bakiye2sonuc.Click += new System.EventHandler(this.bakiye2sonuc_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1334, 716);
-            this.Controls.Add(this.bakiye2sonuc);
-            this.Controls.Add(this.bakiye1sonuc);
-            this.Controls.Add(this.bakiye2);
-            this.Controls.Add(this.bakiye1);
-            this.Controls.Add(this.BahisEkle1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.labelOyuncu2Zar);
             this.Controls.Add(this.labelOyuncu1Zar);
             this.Controls.Add(this.labelOyuncu2Ad);
@@ -310,14 +223,6 @@ namespace ZarAtmaOyunu
         private System.Windows.Forms.Label labelOyuncu2Ad;
         private System.Windows.Forms.Label labelOyuncu1Zar;
         private System.Windows.Forms.Label labelOyuncu2Zar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button BahisEkle1;
-        private System.Windows.Forms.Label bakiye1;
-        private System.Windows.Forms.Label bakiye2;
-        private System.Windows.Forms.Label bakiye1sonuc;
-        private System.Windows.Forms.Label bakiye2sonuc;
     }
 }
 

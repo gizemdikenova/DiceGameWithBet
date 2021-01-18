@@ -8,9 +8,7 @@ namespace ZarAtmaOyunu
 {
     public class Zar
     {
-        //Her zarın ... vardır.
         public int Deger { get; set; } 
-        // Her zar ile .... yapılır. Her zar ... yapar. Metot.
 
         public void At()
         {

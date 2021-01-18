@@ -11,8 +11,6 @@ namespace ZarAtmaOyunu
         public string Ad { get; set; }
         public int Yas { get; set; }
         public Zar OyuncununZari { get; set; }
-        public BakiyeDurumu OyuncuBakiye { get; set; }
-        public int TutulanBahis { get; set; }
 
         public void Oyna()
         {
@@ -27,9 +25,5 @@ namespace ZarAtmaOyunu
             this.Ad = Ad;
         }
 
-        public void BahisinEklenmesi()
-        {
-            OyuncuBakiye.AzalanBakiye(TutulanBahis);
-        }
     }
 }
